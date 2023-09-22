@@ -1,0 +1,31 @@
+/* styles.css (or your component-specific CSS file) */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mat-card {
+  width: 80%; /* Adjust the width as needed */
+  padding: 16px; /* Add padding for spacing inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow */
+}
+
+/* Add any other styles you need for the card content */
+.mat-card-title {
+  font-size: 24px;
+}
+
+.mat-card-content {
+  font-size: 16px;
+}
+
+/* Add styles for the table if needed */
+table {
+  width: 100%;
+}
+
+/* Add additional styling for your table cells, headers, or rows as needed */
